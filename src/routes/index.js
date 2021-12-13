@@ -2,8 +2,8 @@
 const express = require('express');
 
 // CHAMANDO AS FUNCOES DO CONTROLLER
-const { main } = require('../controller/aprendendo1');
-const { calculadoraDeSalario } = require('../controller/aprendendo2');
+const { main } = require('../controller/calculadora');
+const { calculadoraDeSalario } = require('../controller/calculaSalario');
 
 // CHAMANDO O METODO ROUTER DO EXPRESS E ATRIBUINDO A VARIAVEL
 const routes = express.Router();
